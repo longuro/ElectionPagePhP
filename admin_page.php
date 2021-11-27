@@ -66,7 +66,7 @@ if(isset($_REQUEST['tuhistamine'])){
         echo "<td>".($kommentaarid)."</td>";
         echo "<td>".($seisund)."</td>";
         echo "<td><a href='?$param=$id'>$avatekst</a></td>";
-        echo "<td><a href='nimideHaldus.php?kustutasid=$id'> Delete note </a><a href='nimideHaldus.php?tuhistamine=$id'> Reset rating </a><a href='nimideHaldus.php?komtuhistamine=$id'> Delete comment</a></td>";
+        echo "<td><a href='admin_page.php?kustutasid=$id'> Delete note </a><a href='admin_page.php?tuhistamine=$id'> Reset rating </a><a href='admin_page.php?komtuhistamine=$id'> Delete comment</a></td>";
         echo "</tr>";
     }
     echo "</table>";
