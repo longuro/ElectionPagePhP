@@ -29,7 +29,7 @@ include('navigation.php');
     </form>
 </main>
 <div class="link">
-    <a href="https://github.com/longuro/ElectionPagePhP">GitHub</a>
+    <a href="https://github.com/longuro/ElectionPagePhP" target="_blank">GitHub</a>
 </div>
 <?php
 include('../../footer.php');
